@@ -1,0 +1,41 @@
+1) Images :
+class="mktoImg" id="" mktoName=""
+.mktoGen.mktoImg { display: inherit !important; line-height: inherit !important; }
+
+2) Text :
+class="mktoText" id="" mktoName=""
+
+3) Links:
+<meta class="mktoString" id="logo-link" mktoName="Main Logo Link" default="http://business.gogoair.com/">
+
+<a href="${logo-link}"></a>
+
+
+
+4) Background color:
+<meta class="mktoColor" id="section1BgColor" mktoName="Sec. 1 Background" default="#ffffff">
+
+<div class="section1" style="background-color:${section1BgColor}">
+
+
+5) Form
+<div class="mktoForm" id="myMarketoForm" mktoName="Select Form"></div>
+
+<!--<script src="//app-ab13.marketo.com/js/forms2/js/forms2.min.js"></script>
+            <form id="mktoForm_1151">
+            </form>
+            <script>MktoForms2.loadForm("//app-ab13.marketo.com", "467-IPJ-431", 1151);</script> -->
+
+6) show/hide
+
+<meta class="mktoBoolean" id="showSocialButtons" mktoName="Show Social Buttons?" default="true" false_value="none" true_value="block" 
+false_value_name="Hide" true_value_name="Show">
+
+<div id="section1" style="display:${showSocialButtons}"></div>
+
+(1) images upload on images and files folder and upload 
+(2) Template create : go to template menu and new landing page template 
+(3) landing page create : go to landing page menu and new landing page
+(4) form create : go to form  menu and new form
+(5) Editing Mode: Guided
+
