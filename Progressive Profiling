@@ -1,0 +1,10 @@
+if you do not want to show long form, instead you want to show short form - progressive profiling
+nobody like to fill the long form
+if you want to get the all important data at the same time not compromising with the user experience - we use progressive profiling
+
+
+steps:
+1. In form settings - click settings - enable the progressive profiling
+2.  GO to field details - you can see progressive profiling box
+3.  drag fields into progressive profiling box
+4. click on box and control blank fields. if its 1 blank fields it shows along the existing
